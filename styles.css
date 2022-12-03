@@ -1,10 +1,10 @@
 :root {
-    --warna-bg:rgba(133, 133, 133, 0.3);
+    --warna-bg:rgba(133, 133, 133, 0.5);
     --tombol-teks:#fff;
     --tombol-bingkai:#fff;
-    --bingkai:18px;
-    --bingkai-kiri:1.3px solid var(--tombol-bingkai);
-    --bingkai-kanan:1.3px solid var(--tombol-bingkai);
+    --bingkai:5px;
+    --bingkai-kiri:3px solid var(--tombol-bingkai);
+    --bingkai-kanan:3px solid var(--tombol-bingkai);
     --gaya-font:Lato,sans-serif;
     --gaya-font2:Sono,sans-serif
     }
@@ -323,7 +323,7 @@
     backdrop-filter:blur(5px);
     -webkit-backdrop-filter:blur(5px);
     border:1px solid rgba(255,255,255,0.3);
-    border-radius:20%;
+    border-radius:5%;
     padding:10px;
     width:100px;
     height:100px;
