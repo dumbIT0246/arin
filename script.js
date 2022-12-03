@@ -79,13 +79,13 @@ document.getElementById("loveIn").onclick = function() {if(fungsiAwal==0){audio.
   function otomatis(){
     pesan3.style="transition:none";
     kalimat.style="opacity:0";
-    setTimeout(otolanj,400)
+    setTimeout(otolanj,1200)
   }
   function otolanj(){kalimat.style="opacity:1";}
 
   function aktipesan1(){
     kalimat.innerHTML=pesan1.innerHTML
-      ;setTimeout(otomatis,1200);setTimeout(aktipesan2,1900);
+      ;setTimeout(otomatis,3000);setTimeout(aktipesan2,5000);
   }
   
   vketik2=pesan2.innerHTML;
