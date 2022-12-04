@@ -79,13 +79,13 @@ document.getElementById("loveIn").onclick = function() {if(fungsiAwal==0){audio.
   function otomatis(){
     pesan3.style="transition:none";
     kalimat.style="opacity:0";
-    setTimeout(otolanj,1200)
+    setTimeout(otolanj,400)
   }
   function otolanj(){kalimat.style="opacity:1";}
 
   function aktipesan1(){
     kalimat.innerHTML=pesan1.innerHTML
-      ;setTimeout(otomatis,3000);setTimeout(aktipesan2,5000);
+      ;setTimeout(otomatis,1400);setTimeout(aktipesan2,1800);
   }
   
   vketik2=pesan2.innerHTML;
@@ -113,7 +113,7 @@ document.getElementById("loveIn").onclick = function() {if(fungsiAwal==0){audio.
   function aktipesan4(){
     kalimat.classList.add("gaya3");
     wallpaper.style="transform: scale(1.5);";kalimat.innerHTML="Oh iya, satu lagi..";
-    setTimeout(otomatis,800);setTimeout(aktipesan4l,1100);
+    setTimeout(otomatis,8000);setTimeout(aktipesan4l,1100);
   }
   function aktipesan4l(){
     wallpaper.style="transform: scale(1);";
